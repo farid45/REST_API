@@ -8,6 +8,7 @@ class OrderCreateDtoSchema(Schema):
 class OrderSchema(Schema):
     id = fields.String()
     product_ids = fields.List(fields.Str())
+
     total = fields.Float()
 
 

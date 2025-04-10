@@ -62,7 +62,7 @@ cd REST_API
 #### Создать venv и установить зависимости
 ```
 python3 -m venv REST_API
-source library_flask/bin/activate
+source REST_API/bin/activate
 pip3 install -r requirements.txt
 ```
 
